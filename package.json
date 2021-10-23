@@ -13,26 +13,28 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@types/d3": "^7.1.0",
+    "d3": "^7.1.1",
     "vue": "3.2.20"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "1.9.3",
-    "@vue/compiler-sfc": "3.2.20",
-    "@vue/server-renderer": "3.2.20",
-    "normalize.css": "8.0.1",
-    "sass": "1.43.3",
-    "vite": "2.6.10",
-    "vite-plugin-host": "1.0.2",
-    "vue-tsc": "0.28.7",
     "@types/node": "16.11.4",
     "@typescript-eslint/eslint-plugin": "5.1.0",
     "@typescript-eslint/parser": "5.1.0",
+    "@vitejs/plugin-vue": "1.9.3",
+    "@vue/compiler-sfc": "3.2.20",
     "@vue/eslint-config-prettier": "6.0.0",
     "@vue/eslint-config-typescript": "8.0.0",
+    "@vue/server-renderer": "3.2.20",
     "eslint": "8.1.0",
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-vue": "7.20.0",
+    "normalize.css": "8.0.1",
     "prettier": "2.4.1",
-    "typescript": "4.4.4"
+    "sass": "1.43.3",
+    "typescript": "4.4.4",
+    "vite": "2.6.10",
+    "vite-plugin-host": "1.0.2",
+    "vue-tsc": "0.28.7"
   }
 }

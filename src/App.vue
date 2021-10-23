@@ -1,14 +1,17 @@
 <template>
-  <vue3-mindmap msg="hello Vue3Mindmap" />
-  <p>this file generated at：1634960876430</p>
+  <v-mindmap :nodes="nodes" :connections="connections" :editable="true" />
 </template>
 
 <script setup lang="ts">
-import Vue3Mindmap from './components/index.vue'
+import VMindmap from './components/index.vue'
+import map from './map'
+
+const nodes = map.nodes
+const connections = map.connections
 </script>
 
 <style lang="scss">
-@import "normalize.css";
+@import 'normalize.css';
 
 #app {
   width: 100vw;
