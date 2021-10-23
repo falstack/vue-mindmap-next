@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: './src/export.ts',
-      name: 'Vue3Mindmap'
+      name: 'VueMindmapNext'
     },
     rollupOptions: {
       external: ['vue'],
