@@ -93,8 +93,8 @@ export const d3Drag = (simulation, svg, nodes) => {
   }
 
   const dragged = (event) => {
-    event.subject.fx = event.subject.x
-    event.subject.fy = event.subject.y
+    event.subject.fx = event.x
+    event.subject.fy = event.y
   }
 
   const dragEnd = () => {
